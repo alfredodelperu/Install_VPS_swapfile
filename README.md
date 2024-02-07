@@ -5,13 +5,13 @@ Actualización y configuración del VPS GRATIS
 
 1- Actualizar el sistema como se indica.
 
-<sudo apt update && sudo apt upgrade>
+sudo apt update && sudo apt upgrade
 
 2- Con el comando «htop» se observa que el sistema no tiene swap (memoria de intercambio).
 
 3- Crear el swapfile con los comando mostrados debajo.
 
-'sudo fallocate -l 1G /swapfile'
+sudo fallocate -l 1G /swapfile
 
 4- Formatear el swapfile como se muestra.
 
